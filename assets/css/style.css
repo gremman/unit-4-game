@@ -1,0 +1,84 @@
+h1 {
+    color: purple;
+    font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    background-color: lightcoral;
+    width: 400px;
+    padding: 10px;
+}
+
+body {
+    background-image: url("jewelbackground.jpg");
+    z-index: 0;
+}
+.container {
+    width: 500px;
+    height: 250px;
+    background-color: rgb(231, 213, 189);
+    color: green;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px;
+}
+
+.target {
+    height: 100px;
+    width: 300px;
+    background-color: rgb(152, 226, 117);
+    margin-top: 25px;
+    margin-bottom: 15px;
+    float:left;
+    padding: 5px;
+    font-size: 45px;
+    text-align: center;
+    color: teal;
+}
+
+.wins-losses {
+    background-color: lightskyblue;
+    height: 100px;
+    width: 100px;
+    margin-top: 25px; 
+    margin-bottom: 15px;  
+    margin-left: 20px;
+    float:left;
+    display: block;
+    padding: 5px;
+    color: rgb(7, 7, 61);
+}
+
+.imagebox {
+    height: 80px;
+    width: 400px;
+}
+
+.images {
+    margin: 5px;
+}
+
+.scorebox {
+    height: 200px;
+    width: 400px;
+    margin-top: 175px;  
+}
+
+.total {
+    background-color: teal;
+    height: 30px;
+    width: 400px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.scorenumber {
+    background-color: teal;
+    height: 80px;
+    width: 400px;
+    z-index: 2;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 15px;
+}
